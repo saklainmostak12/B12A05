@@ -21,7 +21,7 @@ everycall.addEventListener(('click'),function(){
     let countcall = parseInt(document.getElementById("count-call").innerText);
     countcall++;
     document.getElementById("count-call").innerText = countcall;
-    alert("are you copy this SERVICE NUMBER?")
+    
  
 })
 
@@ -426,6 +426,133 @@ for(const data of callHistory ){
 
     
 })
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+document.getElementById("nationalemergency-btn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("nationalemergency").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("nationalemergency").innerText)
+    })
+})
+
+
+document.getElementById("Policebtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Police").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Police").innerText)
+    })
+})
+
+document.getElementById("Firebtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Fire").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Fire").innerText)
+    })
+})
+
+
+document.getElementById("Ambulancebtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Ambulance").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Ambulance").innerText)
+    })
+})
+
+document.getElementById("Womenbtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Women").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Women").innerText)
+    })
+})
+
+
+document.getElementById("Antibtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Anti").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Anti").innerText)
+    })
+})
+
+
+
+document.getElementById("Electricitybtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Electricity").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Electricity").innerText)
+    })
+})
+
+document.getElementById("Bracbtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Brac").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Brac").innerText)
+    })
+})
+
+document.getElementById("Railwaybtn").addEventListener(('click'),function(){
+
+
+    navigator.clipboard.writeText(document.getElementById("Railway").innerText).then(function(){
+
+        alert("copied:"+ " "+document.getElementById("Railway").innerText)
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 document.getElementById("clear").addEventListener(('click'),function(){
